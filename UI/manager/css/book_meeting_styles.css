@@ -1,0 +1,35 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1712111474888-29e9431241b6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(7, 7, 7);
+
+
+}
+
+.container {
+max-width: 600px;
+}
+
+.card {
+
+background: rgba(255, 255, 255, 0.9);
+padding: 2rem;
+border-radius: 10px;
+border: none;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+button {
+font-size: 1rem;
+}
+
+.form-control {
+margin-bottom: 1rem;
+}

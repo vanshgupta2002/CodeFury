@@ -1,0 +1,23 @@
+/* Homepage Specific Styling */
+.homepage-title {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  .homepage-buttons .btn {
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .homepage-title {
+      font-size: 2.5rem;
+    }
+  
+    .homepage-buttons .btn {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  

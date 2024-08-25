@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Meeting Room</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/room.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body class="bg-image">
+  <div class="center-container">
+    <div class="container text-center">
+      <h1 class="fadeIn">Edit Meeting Room</h1>
+      <form class="card room-form fadeIn" id="editRoomForm">
+        <input type="text" id="roomType" value="Classroom" required>
+        <input type="time" id="openingTime" value="09:00" required>
+        <input type="time" id="closingTime" value="17:00" required>
+        <textarea id="amenities" rows="3" required>Projector, Whiteboard, Wi-Fi</textarea>
+        <input type="text" id="address" value="Main Building, 1st Floor" placeholder="Address (Optional)">
+        <button type="submit" class="btn btn-primary">Update Room</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

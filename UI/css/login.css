@@ -1,0 +1,19 @@
+/* Login Page Specific Styling */
+.login-card {
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .login-card input {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-card {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  

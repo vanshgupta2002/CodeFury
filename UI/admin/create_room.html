@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Meeting Room</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/room.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-image">
+  <div class="container text-center">
+    <h1 class="fadeIn">Create New Meeting Room</h1>
+    <form class="card room-form fadeIn" id="createRoomForm">
+      <input type="text" id="roomType" placeholder="Room Type (e.g., Classroom, Conference)" required>
+      <input type="time" id="openingTime" placeholder="Opening Time" required>
+      <input type="time" id="closingTime" placeholder="Closing Time" required>
+      <textarea id="amenities" rows="3" placeholder="List of Amenities (Comma Separated)" required></textarea>
+      <input type="text" id="address" placeholder="Address (Optional)">
+      <button type="submit" class="btn btn-primary">Save Room</button>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

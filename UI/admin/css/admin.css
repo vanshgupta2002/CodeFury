@@ -1,0 +1,30 @@
+/* Admin Home Page Styling */
+.admin-header {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .admin-room-list {
+    margin-top: 20px;
+  }
+  
+  .room-item {
+    margin-bottom: 15px;
+  }
+  
+  .room-item h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .room-item p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-header {
+      font-size: 2rem;
+    }
+  }
+  
